@@ -9,4 +9,5 @@ export class AppComponent  {
   name = 'Angular';
   //names: string[] = ['john', 'mike', 'susan'];
   names: string[] = null;
+  display: boolean = true;
 }

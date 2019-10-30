@@ -30,3 +30,7 @@
 
 <!-- <ng-template> is an Angular element for rendering HTML. It is never displayed directly. 
  <ng-container> is a grouping element that doesn't interfere with styles or layout because Angular doesn't put it in the DOM. -->
+
+<p *appUnless="!display" >
+  display when it's false
+</p>
