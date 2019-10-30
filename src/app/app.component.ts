@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
+  names: string[] = null; // ['john', 'mike', 'susan'];
 }

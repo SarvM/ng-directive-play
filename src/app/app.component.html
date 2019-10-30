@@ -9,3 +9,14 @@
 
 <p [appHiglight]="'yellow'">Highlight directive</p>
 <p appHiglight>Highlight directive</p>
+
+
+<div *ngIf="names else elsePart">
+  <div *ngFor="let name of names">
+    {{name}}
+  </div>
+</div>
+
+<ng-template #elsePart>
+  No record to display
+</ng-template>
