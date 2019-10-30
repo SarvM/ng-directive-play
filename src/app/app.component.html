@@ -1,4 +1,11 @@
 <hello name="{{ name }}"></hello>
-<p appHiglight highlightColor='red'>
+<!-- <p appHiglight highlightColor='red'>
   Start editing to see some magic happen :)
 </p>
+
+<p appHiglight [highlightColor]="'yellow'">
+  Start editing to see some magic happen :)
+</p> -->
+
+<p [appHiglight]="'yellow'">Highlight directive</p>
+<p appHiglight>Highlight directive</p>
