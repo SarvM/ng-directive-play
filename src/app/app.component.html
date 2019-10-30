@@ -20,3 +20,9 @@
 <ng-template #elsePart>
   No record to display
 </ng-template>
+
+<ng-template [ngIf]="names" [ngIfElse]="elsePart">
+  <div *ngFor="let name of names">
+    {{name}}
+  </div>
+</ng-template>
